@@ -1,0 +1,132 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgb(148, 3, 104);
+    
+}
+.LOGO{
+    height: 100px;
+    width: 75px;
+    margin: 5px;
+}
+
+.logoColumn{
+    display: flex;
+    flex-direction: column;
+}
+.titlespace{
+    display: flex;
+    max-width: 300px;
+    flex: 1;
+    align-content: baseline;
+    justify-content: baseline;
+    gap: 10px;
+    padding: 5px;
+    margin: 0;
+}
+
+.bottomForLeft{
+    display: flex;
+    flex: 1;
+    border: 1px solid;
+    border-color: white;
+}
+.babyInfo{
+    display: flex;
+    flex: 1;
+    border: 1px solid;
+    padding: 5px;
+    margin: 0;
+    height: fit-content;
+}
+
+.infodump{
+    padding: 5px;
+    margin: 0;
+}
+
+.logoinfo{
+    border: 1px solid;
+    border-color: white;
+    padding: 2px;
+    display: flex;
+    flex: 1;
+}
+
+.titleDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.titlespace, .ghoulspace, .belowGhoul{
+        background-color: black;
+        border: 3px solid rgb(245, 112, 194);;
+}
+.bigtop{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+    color: white;
+}
+
+.titlespace{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.bigtitle{
+    margin: 0;
+}
+
+.topForLeft{
+    display: flex;
+    height: 40%;
+    gap: 5px;
+}
+.ghoulspace{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
+    gap: 20px;
+}
+
+.ghoulcontent{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.ghoulinfo{
+    display: flex;
+    flex: 1;
+    border: 1px solid white;
+    padding-bottom: 50px;
+}
+
+.ghoul{
+    height: 250px;
+    width: 200px;
+    border: 5px solid; /* Define a fallback border */
+        /* or */
+        /* border-image: url('path/to/your/image.png') 30 stretch; */
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigBottom{
+    display: flex;
+}

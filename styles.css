@@ -1,8 +1,15 @@
+html, body{
+    height: 100%;
+}
+
 body{
     display: flex;
     flex: 1;
     flex-direction: column;
     background-color: rgb(148, 3, 104);
+    justify-content: space-between;
+    align-content: space-between;
+    min-height: 100%;
     
 }
 .LOGO{
@@ -129,4 +136,16 @@ body{
 
 .bigBottom{
     display: flex;
+    flex-direction: row;
+    flex: 1;
+    min-height: 30%;
+}
+
+.message{
+    font-size: 64px;
+
+}
+.karza{
+    width: 250px;
+    height: 200px;
 }

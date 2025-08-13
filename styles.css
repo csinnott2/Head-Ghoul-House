@@ -134,18 +134,19 @@ body{
     align-items: center;
 }
 
-.bigBottom{
+.bigbottom{
     display: flex;
     flex-direction: row;
     flex: 1;
-    min-height: 30%;
 }
 
 .message{
+    display: flex;
+    flex: 1;
     font-size: 64px;
-
+    flex-wrap: wrap;
 }
 .karza{
-    width: 250px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }

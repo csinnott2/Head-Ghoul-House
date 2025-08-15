@@ -171,6 +171,7 @@ a img {
         align-content: center;
         max-width: 200px;
         background-color: green;
+        max-height: fit-content;
   }
 
 
@@ -189,7 +190,7 @@ a img {
         /* border-image: url('path/to/your/image.png') 30 stretch; */
     margin: 10px;}
 
-.holder{
+.holder, .holderSingle{
     display: flex;
     flex-direction: column;
     justify-content: center;

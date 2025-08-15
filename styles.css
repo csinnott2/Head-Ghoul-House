@@ -248,15 +248,22 @@ li{
     border: 2px solid gold;
   }
 
-  
+  .footer{
+    text-align: center;
+    color: white;
+    background-color: black;
+    max-height: 15px;
+  }
+
 
   .text-container {
     display: flex;
     flex: 1;
+    flex-direction: column;
     position: relative;
     min-width: 1500px;
     height: fit-content;
-    align-items: center;
+    text-align:;
   }
   .image-wrapper{
     flex: 1;

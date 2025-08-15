@@ -221,6 +221,8 @@ li{
     margin: 0;
     padding-left: 5px;
     text-justify: top;
+    max-height: 310px;
+      overflow-y: auto;       /* ✅ scroll if needed */
 
 }
 .karza{
@@ -264,6 +266,7 @@ li{
     position: relative;
     height: fit-content;
     justify-content: center;
+    max-height: 330px;
 
 
 }

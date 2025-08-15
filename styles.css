@@ -20,9 +20,6 @@ a img {
     display: block;
 }
 
-li{
-    display: block;
-}
 
 .LOGO{
     height: 100px;
@@ -223,7 +220,13 @@ li{
     text-justify: top;
     max-height: 310px;
       overflow-y: auto;       /* ✅ scroll if needed */
+    list-style-type: disc;
+    list-style-position: outside;
+    padding-left: 30px;
+}
 
+li{
+    margin-bottom: 10px;
 }
 .karza{
     display: flex;

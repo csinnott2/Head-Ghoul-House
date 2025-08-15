@@ -144,7 +144,7 @@ a img {
     border: 1px solid white;
     padding: 5px;
     align-items: stretch;
-    max-height: 100px;
+    max-height: 120px;
 }
 
 .payZone{
@@ -215,7 +215,8 @@ a img {
     flex-direction: row;
     align-items: center; /* ✅ vertically center children */
     justify-content: space-between; /* optional: spread text and image */
-    background-color: rgb(133, 2, 74);
+    background-color: rgb(133, 2, 74, .85);
+    border: 3px solid rgb(245, 112, 194);
     margin: 8px;
     position: relative;
     min-width: 70%;

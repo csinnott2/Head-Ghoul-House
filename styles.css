@@ -261,10 +261,11 @@ li{
     flex: 1;
     flex-direction: column;
     position: relative;
-    min-width: 1500px;
     height: fit-content;
-    text-align:;
-  }
+    justify-content: center;
+
+
+}
   .image-wrapper{
     flex: 1;
      display: flex;

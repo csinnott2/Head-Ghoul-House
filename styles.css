@@ -176,11 +176,10 @@ a img {
 .ghoul {
     display: block;
     width: 259px;
-    height: 357px;
+    height: 357px; /* test */
     border: 5px solid;
     margin: 10px;
 }
-
     .ghoulSingle{
     width: 450px;
     height: 635px;

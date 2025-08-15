@@ -219,6 +219,8 @@ li{
     white-space: normal;    
     margin: 0;
     padding-left: 5px;
+    text-justify: top;
+
 }
 .karza{
     display: flex;
@@ -249,10 +251,13 @@ li{
   
 
   .text-container {
+    display: flex;
     flex: 1;
     position: relative;
     min-width: 1500px;
     height: fit-content;
+    justify-content: center;
+    align-content: center;
   }
   .image-wrapper{
     flex: 1;

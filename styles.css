@@ -20,6 +20,14 @@ body{
 a img {
     display: block;
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
 
 
 .LOGO{
@@ -122,7 +130,7 @@ a img {
     flex: 1;
     justify-content: space-between;
     gap: 20px;             /* space between items */
-
+    scrollbar-color: hotpink rgba(0, 0, 0, 0.4); 
     flex-wrap: wrap;
     overflow-y: auto;      /* vertical scrolling */
     overflow-x: hidden;
@@ -162,18 +170,18 @@ a img {
     padding: 0;
     margin: 0;
 }
-.price{
+.price, .priceNot{
     font-size: 48px;
     color: green;
     margin: 0;
 }
 
-.sellEm{
+.sellEm, .sellEmNot{
     font-size: 24px;
     text-anchor: end;
 }
 
-.payMe{
+.payMe, .payMeNot{
         height: 100%;
         font-size: 24px;
         display: flex;
@@ -184,6 +192,14 @@ a img {
         max-height: fit-content;
   }
 
+.payMeNot{
+    background-color: red;
+
+}
+
+.sellEmNot, .priceNot{
+    color: red;
+}
 
 .ghoul, .ghoulSOLD {
     display: block;
@@ -197,6 +213,15 @@ a img {
 
 .ghoulSOLD{
     filter: grayscale(100%)
+}
+
+.namerKarza{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.karzaBlurb{
+    font-size: 32px;
 }
     .ghoulSingle{
     width: 450px;
@@ -221,6 +246,8 @@ a img {
     justify-content: space-between; /* optional: spread text and image */
     background-color: rgb(133, 2, 74, .85);
     border: 3px solid rgb(245, 112, 194);
+    scrollbar-color: hotpink rgba(0, 0, 0, 0.4); 
+
     margin: 8px;
     position: relative;
     min-width: 70%;
@@ -257,7 +284,7 @@ li{
 
 .theEntry{
     font-family: fantasy;
-    height: 65px;
+    height: 70px;
     width: 300px;
     position: absolute;
     bottom: 0;

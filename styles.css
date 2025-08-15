@@ -20,6 +20,10 @@ a img {
     display: block;
 }
 
+li{
+    display: block;
+}
+
 .LOGO{
     height: 100px;
     width: 75px;

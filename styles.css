@@ -121,6 +121,13 @@ a img {
     flex-direction: row;
     flex: 1;
     justify-content: space-between;
+    gap: 20px;             /* space between items */
+
+    flex-wrap: wrap;
+    overflow-y: auto;      /* vertical scrolling */
+    overflow-x: hidden;
+     min-height: 0;  
+    max-height: 700px;
 }
 
 .ghoulcontentSingle{
@@ -137,7 +144,7 @@ a img {
     border: 1px solid white;
     padding: 5px;
     align-items: stretch;
-    max-height: 250px;
+    max-height: 100px;
 }
 
 .payZone{
@@ -184,6 +191,8 @@ a img {
     height: 357px; /* test */
     border: 5px solid;
     margin: 10px;
+    flex: 0 0 calc(25% - 20px); /* exactly 4 per row */
+    box-sizing: border-box;     /* include padding/border in width calc */
 }
     .ghoulSingle{
     width: 450px;

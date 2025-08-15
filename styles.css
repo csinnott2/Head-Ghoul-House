@@ -185,7 +185,7 @@ a img {
   }
 
 
-.ghoul {
+.ghoul, .ghoulSOLD {
     display: block;
     width: 259px;
     height: 357px; /* test */
@@ -193,6 +193,10 @@ a img {
     margin: 10px;
     flex: 0 0 calc(25% - 20px); /* exactly 4 per row */
     box-sizing: border-box;     /* include padding/border in width calc */
+}
+
+.ghoulSOLD{
+    filter: grayscale(100%)
 }
     .ghoulSingle{
     width: 450px;

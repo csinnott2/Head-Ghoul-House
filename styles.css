@@ -251,7 +251,7 @@ li{
   .footer{
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(0,0,0,.75);
     max-height: 15px;
   }
 

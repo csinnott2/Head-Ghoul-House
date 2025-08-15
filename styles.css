@@ -209,7 +209,7 @@ li{
     background-color: rgb(133, 2, 74);
     margin: 0;
     position: relative;
-    align-items: end;
+    align-items: center;
     min-width: 70%;
 }
 

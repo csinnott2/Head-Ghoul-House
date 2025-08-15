@@ -202,15 +202,16 @@ li{
 
 }
 
-.bigbottom{
+.bigbottom {
     display: flex;
     flex-direction: row;
-    flex: 1 0 auto;
+    align-items: center; /* ✅ vertically center children */
+    justify-content: space-between; /* optional: spread text and image */
     background-color: rgb(133, 2, 74);
     margin: 0;
     position: relative;
-    align-items: center;
     min-width: 70%;
+    padding: 20px; /* optional: adds spacing inside */
 }
 
 .message{

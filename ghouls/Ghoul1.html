@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 
     <title>GET CLOSER WITH GHOUL 1</title>
 </head>
@@ -17,7 +21,7 @@
                     <div class="logoinfo">something TINY</div>
                 </div>
                 <div class="titleDescription">
-                    <p class="bigtitle" style="font-size: 30px">HEAD GHOUL INDUSTRIES</p>
+                    <p class="bigtitle">HEAD GHOUL INDUSTRIES</p>
                     <p class="babyInfo">A little blurb or perhaps image.</p>
                 </div>
             </div>
@@ -40,7 +44,16 @@
                 <div class="ghoulBlurb">This is SPECIFIC INFORMATION about Ghoul Number One!</div>
                     <div class="payZone">
                         <p class="sellEm" style="margin: 0;">This creature can be yours: </p> <p class="price">$30</p>
-                        <button class="payMe">$$$$$$$$$$$$<br>PAY ME FOR THIS OBJECT<br>$$$$$$$$$$$$</button>
+                        <button id="payMe" onclick="">$$$$$$$$$$$$<br>PAY ME FOR THIS OBJECT<br>$$$$$$$$$$$$</button>
+
+                        <script>
+                            const buyer = document.getElementById("payMe");
+
+                            buyer.addEventListener("click", () => {
+                                alert("YOU BOUGHT IT");
+                            });
+                        </script>
+
                     </div>
             </div>
 
